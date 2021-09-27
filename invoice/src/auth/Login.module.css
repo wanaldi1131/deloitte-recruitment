@@ -1,0 +1,54 @@
+.Container {
+  height: 100vh;
+  padding: 32px;
+  background-color: #e9f8ff;
+}
+
+.Wrapper {
+  position: relative;
+  height: 100%;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+.Header {
+  position: absolute;
+  right: 0;
+  margin: 16px;
+}
+
+.Body {
+  position: relative;
+  top: 160px;
+  width: 32vw;
+  margin: auto;
+}
+
+.Body .Title {
+  font-weight: 700;
+  margin-bottom: 4vh;
+  font-size: xx-large;
+  text-align: center;
+}
+
+/* Tablet */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .Container {
+    padding: 16px;
+  }
+
+  .Body {
+    width: 56vw;
+  }
+}
+
+/* Phone */
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .Container {
+    padding: 8px;
+  }
+
+  .Body {
+    width: 80vw;
+  }
+}
