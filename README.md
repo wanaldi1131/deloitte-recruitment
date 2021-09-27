@@ -9,5 +9,5 @@ How to use this App
 5. seller can generate invoice buyer
 6. buyer can view their invoice and pay it
 
-Notes
+Notes :
 testing has not been done for this app
